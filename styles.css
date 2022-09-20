@@ -14,12 +14,12 @@ html {
   background-image: url("assets/bg.png");
   background-repeat: round;
   height: 100%;
-  width: 80%;
+  width: auto;
 }
 
 body {
   background-color: #6d092b;
-  height: 90%;
+  height: 100%;
 }
 
 h1 {
@@ -27,17 +27,18 @@ h1 {
   color: #Ffa205;
   font-size: 50px;
 
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 p {
-  font-size: 16px;
-  margin-right: 20%;
-  margin-left: 20%;
+  font-size: 18px;
+  line-height: normal;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 img {
-  float: left;
+  max-width: 200px;
 }
 
 a {
@@ -77,13 +78,26 @@ ul {
   border-radius: 300px;
 }
 
+.about_page p {
+  margin-left: 30%;
+}
+
+.about_page img {
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    height: 30%;
+}
+
 /* galley config */
 .gallery {
   list-style-type: none;
+
+/*  margin-right: 10%;
+  margin-left: 10%;*/
 }
 
 .gallery img {
-  max-width: 200px;
   height: 200px;
   padding: 5px;
   transition: 1s;
