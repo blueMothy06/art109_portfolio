@@ -4,25 +4,46 @@
 }
 
 html {
-  margin-left: 20%;
+  margin-left: 10%;
   margin-right: 10%;
   background: #6d092b;
   font-family: 'Antic Slab', serif;
   color: #ECE4B7;
+
+
+  background-image: url("assets/bg.png");
+  background-repeat: round;
+  height: 100%;
+  width: 80%;
+}
+
+body {
+  background-color: #6d092b;
+  height: 90%;
 }
 
 h1 {
   font-family: 'Square Peg', cursive;
   color: #Ffa205;
   font-size: 50px;
+
+  margin-left: 20%;
 }
 
 p {
   font-size: 16px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+img {
+  float: left;
 }
 
 a {
-  color: #Ff5472;
+  /*color: #Ff5472;*/
+  color: #ff7a92;
+  text-decoration: none;
 }
 
 a:hover {
@@ -30,15 +51,48 @@ a:hover {
 }
 
 .navbar {
-  text-decoration: none;
+  padding-left: 20%;
 }
 
 ul {
   list-style: none;
   text-align: center;
+  padding: 20px;
 }
 
 .pic {
   display: block;
   margin-left: auto;
+  margin-right: auto;
+
+}
+
+::selection {
+  color: white;
+  background: orange;
+}
+
+/* profile */
+.profile {
+  border-radius: 300px;
+}
+
+/* galley config */
+.gallery {
+  list-style-type: none;
+}
+
+.gallery img {
+  max-width: 200px;
+  height: 200px;
+  padding: 5px;
+  transition: 1s;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
 }
