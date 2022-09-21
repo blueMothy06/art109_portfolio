@@ -3,6 +3,11 @@
   src: url(SquarePeg-Regular.ttf);
 }
 
+@font-face {
+  font-family: Antic Slab;
+  src: url(AnticSlab-Regular.ttf);
+}
+
 html {
   margin-left: 10%;
   margin-right: 10%;
@@ -12,7 +17,8 @@ html {
 
 
   background-image: url("assets/bg.png");
-  background-repeat: round;
+  background-repeat: space;
+  background-attachment: fixed;
   width: auto;
 }
 
@@ -106,10 +112,13 @@ ul {
   list-style-type: none;
   display: inline-grid;
   grid-template-columns: auto auto auto;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 
 /*  display: block;
   position: relative;
-  height: 75684.6px;
 
 /*  margin-right: 10%;
   margin-left: 10%;*/
