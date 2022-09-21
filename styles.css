@@ -110,7 +110,7 @@ ul {
 /* galley config */
 .gallery {
   list-style-type: none;
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   margin: auto;
   justify-content: center;
