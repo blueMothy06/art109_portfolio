@@ -13,13 +13,12 @@ html {
 
   background-image: url("assets/bg.png");
   background-repeat: round;
-  height: 100%;
   width: auto;
 }
 
 body {
   background-color: #6d092b;
-  height: 100%;
+  overflow:visible;
 }
 
 h1 {
@@ -47,6 +46,12 @@ a {
   text-decoration: none;
 }
 
+footer {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
 a:hover {
   color: #FF8811;
 }
@@ -71,6 +76,10 @@ ul {
 ::selection {
   color: white;
   background: orange;
+}
+
+.active {
+  color: #FF8811;
 }
 
 /* profile */
