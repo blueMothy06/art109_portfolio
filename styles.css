@@ -54,7 +54,7 @@ a {
 }
 
 main {
-  min-height: 600px;
+  min-height: 300px;
 }
 
 footer {
@@ -121,21 +121,16 @@ ul {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: auto;
+  /** this makes it center, all 3 of them*/
   justify-content: center;
   justify-items: center;
   align-items: center;
-
-/*  display: block;
-  position: relative;
-
-/*  margin-right: 10%;
-  margin-left: 10%;*/
 }
 
 .gallery img {
   height: 200px;
   padding: 5px;
-  transition: 1s;
+  transition: 0.5s;
   object-fit: cover;
   border-radius: 15px;
   margin-left: auto;
