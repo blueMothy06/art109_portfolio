@@ -102,15 +102,7 @@ ul {
 }
 
 #home {
-  float: left;
-  padding: 5px;
-  transition: 0.5s;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-#home img {
-  border-radius: 15px;
+  text-align: center;
 }
 
 /* profile */
@@ -147,11 +139,12 @@ ul {
 }
 
 .gallery img {
-  height: 200px;
+  height: 300px;
   padding: 5px;
   transition: 0.5s;
   object-fit: cover;
   border-radius: 15px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
