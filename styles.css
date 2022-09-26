@@ -158,7 +158,9 @@ ul {
   }
 
   .about_page img {
-    float: none;
+    margin; 0;
+    width: 100%;
+    height: 80%;
   }
 
   body {
