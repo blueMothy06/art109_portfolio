@@ -14,7 +14,7 @@ html {
   background: #6d092b;
   font-family: 'Antic Slab', serif;
   color: #ECE4B7;
-  background-image: url("assets/bg.png");
+  background-image: url("assets/bg.webp");
   background-repeat: space;
   background-attachment: fixed;
   width: auto;
@@ -38,6 +38,14 @@ p {
   line-height: normal;
   margin-right: 10%;
   margin-left: 10%;
+}
+
+img {
+  display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 /*img {
@@ -87,7 +95,7 @@ ul {
 }
 
 li{
-  list-style-image: url(./assets/bullet.png);
+  list-style-image: url(./assets/bullet.webp);
   margin-left: 10%;
   font-size: 18px;
 }
