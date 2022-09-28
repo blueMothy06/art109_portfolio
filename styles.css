@@ -4,15 +4,15 @@
 }
 
 @font-face {
-  font-family: Antic Slab;
-  src: url(AnticSlab-Regular.ttf);
+  font-family: ABeeZee;
+  src: url(ABeeZee-Regular.ttf);
 }
 
 html {
   margin-left: 10%;
   margin-right: 10%;
   background: #6d092b;
-  font-family: 'Antic Slab', serif;
+  font-family: 'ABeeZee', sans-serif;
   color: #ECE4B7;
   background-image: url("assets/bg.png");
   background-repeat: space;
@@ -139,8 +139,6 @@ li{
   grid-template-columns: auto auto auto;
   margin: auto;
   /** this makes it center, all 3 of them*/
-  /*  display: flex;
-  flex-wrap: wrap;*/
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -163,29 +161,13 @@ li{
 
 /**mobile friendly*/
 @media screen and (max-width: 600px) {
-  .gallery {
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .about_page img {
-    height: 80%;
-    max-width: 100%;
-    margin-bottom: 20%;
-  }
-
-  body {
-    max-width: 100%;
-  }
-
   html {
     margin: 0;
     padding: 0;
   }
-  li{
-    margin-left: 0;
+
+  body {
+    max-width: 100%;
   }
 
   h1 {
@@ -195,6 +177,10 @@ li{
   p {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  li{
+    margin-left: 0;
   }
 
   img {
@@ -209,5 +195,16 @@ li{
   .navbar {
     padding:0;
     margin-top: 100px;
+  }
+  .gallery {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .about_page img {
+    height: 80%;
+    max-width: 100%;
+    margin-bottom: 20%;
   }
 }
